@@ -183,7 +183,122 @@ nav{
     display: block;
     gap: 20px;
 }
+.pricing{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.pricing-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
 
+.pricing-title h2{
+    font-size: 60px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
 
+}
+.pricing-title p{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.price-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+    padding: 35px;
+}
+.plan{
+    display: block;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.price-card h3{
+    font-size: 52px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+.price-text{
+        color: #888888;
+        margin-bottom: 25px;
+}
+.price-card ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.price-card ul li::before{
+   content: "\2022";
+    color: #2563EB;
+    font-size: 22px;
+    margin-right: 12px;
+}
+
+.price-card ul li{
+    margin-bottom: 14px;
+    color:#374151;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.price-card button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-team{
+    border: 1px solid #000 !important;
+    background-color: #fff;
+    color: #000;
+}
+.active{
+    background: #0D1B2A;
+    color: white;
+}
+.active h3{
+    color: white;
+}
+.active .plan{
+    color: #60A5FA;
+}
+.active .price-text{
+    color: #CBD5E1;
+}
+.active ul li{
+   color: #888888;
+   font-weight: 600;
+}
+.active button {
+    background: #2563EB;
+    color: white;
+    border: none;
+}
+.btn-standard{
+  background: #FFFFFF;
+  color:  #2563EB;
+  
+}
+.price-card hr{
+    border:0;
+    height: 1px;
+    background: #E5E7EB;
+    margin: 22px 0;
+}
+.active hr{
+    background: rgba(255, 255, 255, 0.15);
+}
 
 

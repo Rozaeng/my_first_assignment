@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: "open sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 header{
     width:100%;
@@ -67,6 +67,17 @@ nav{
     margin-top: 20px;
     justify-content: center;
     align-items: center;  
+} 
+
+ 
+.banner-content .reg-btn{
+   margin-top: 220px;
+    padding: 18px 40px; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+    overflow: hidden;
 }
 .banner-overlay{
     position: absolute;
@@ -83,6 +94,7 @@ nav{
     z-index: 1;
   
 }
+
 .banner-content{
    position: absolute;
    display: flex;
@@ -92,12 +104,11 @@ nav{
    text-align: center;
    color: white;
    width: 800px;
-   z-index: 3;
-   
+   z-index: 3; 
 }
 .banner-content h1{
    font-size:70px;
-    font-weight: 600;
+    font-weight: 800;
     line-height 1.1rem;
     margin-bottom: 22px;
     position: relative;
@@ -110,8 +121,7 @@ nav{
     margin: 0 auto;
     margin-left:45px;
     margin-top: -5px;
-    font-weight: 100%;
-    color: #c5c6c7;
+    color: #E5E7EB;
     font-size: 22px;
     line-height: 1.6rem;
     margin-bottom: 40px;
@@ -119,10 +129,7 @@ nav{
     top: -10px;
     
 }
-.banner-content .reg-btn{
-   margin-top: 220px;
-    padding: 18px 40px; 
-}
+
 .speakers-parent{
     text-align: center;
     width: 90%;
@@ -415,21 +422,49 @@ nav{
 .venue-btn i{
     margin-right: 8px;
 }
+.footer-bg{
+    width: 100%;
+    background: #0D1B2A;
+    padding: 40PX 0;
+    margin-top: 100px;
+}
 
 .footer{
     width: 90%;
     max-width: 1200px;
     margin: 100px auto 40px;
+
+   
 }
 
 .footer-top{
-    border-top: 1px solid #E5E7EB;
-    padding-top: 40px;
+    border-bottom: 1px solid #4B5563;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   
 }
+.footer-bottom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.footer-links{
+    position: absolute;
+    right: 200px;
+    display: flex;
+    gap: 30px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #9CA3AF;
+    font-size: 15px;
+    transition: 3s;
+}
+
 
 .footer-logo img{
     width: 50px;
@@ -445,12 +480,13 @@ nav{
    
     font-size: 42px;
     font-weight: 700;
-    color: #111827; 
+    color: white;
 }
 .footer-logo span{
+    
     color: #2563EB;
-}
 
+}
 
 .social-links{
     display: flex;
@@ -478,8 +514,11 @@ nav{
 
 
 .copyright{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     text-align: center;
-    color: #6B7280;
+    color:  #9CA3AF;
     font-size: 15px;
 }
 
